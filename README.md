@@ -39,9 +39,7 @@ https://user-images.githubusercontent.com/93427264/261806659-952c90de-b90f-4000-
 https://user-images.githubusercontent.com/93427264/261806670-db848b6d-d98d-4f87-829b-d2ba877a3afc.png
 ```
 ## PLOTING BAR GRAPH(YEARLY):
-```
 https://user-images.githubusercontent.com/93427264/261806698-16f7788b-75ec-4dfa-b2b5-80db53d52a09.png
-```
 ## RESULT:
 ```
 Thus we have created the python code for plotting the time series of given data.
