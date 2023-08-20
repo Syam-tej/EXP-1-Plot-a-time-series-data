@@ -2,18 +2,19 @@
 ## AIM:
 Develop a python program to Plot a time series data (population/ market price of a commodity /temperature.
 ## ALGORITHM:
-```
-STEP 1: Import the required packages like pandas and numpy
-STEP 2: Read the data using the pandas
-STEP 3: Calculate the mean for the respective column.
-STEP 4: Plot the data according to need and can be altered monthly, or yearly.
-STEP 5: Display the results.
-```
+## STEP 1: 
+Import the required packages like pandas and numpy
+## STEP 2: 
+Read the data using the pandas
+## STEP 3: 
+Calculate the mean for the respective column.
+## STEP 4: 
+Plot the data according to need and can be altered monthly, or yearly.
+## STEP 5: 
+Display the results.
 ## PROGRAM:
-```
-DEVELOPED BY : P SYAM TEJ
-REF NO: 212221240056
-```
+## DEVELOPED BY : P SYAM TEJ
+## REF NO: 212221240056
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -27,21 +28,14 @@ mean=df.Close.resample('M').mean().plot(kind="bar")
 mean=df.Close.resample('Y').mean().plot(kind="bar")
 ```
 ## OUTPUT:
-```
-https://user-images.githubusercontent.com/93427264/261806643-966e903b-c051-4846-bf0a-278477394d6a.png
-```
+## FIRST FIVE ROWS:
+![image](https://github.com/Syam-tej/EXP-1-Plot-a-time-series-data/assets/93427224/a683d975-99a1-4492-8c49-4dc55e2a97bf)
 ## CALCULATING MEAN:
-```
-https://user-images.githubusercontent.com/93427264/261806659-952c90de-b90f-4000-8075-4c973d13bc0e.png
-```
+![image](https://github.com/Syam-tej/EXP-1-Plot-a-time-series-data/assets/93427224/8ecf6d96-3a31-455a-b79d-06b7186a5e1e)
 ## PLOTTING BAR GRAPH(MONTHLY):
-```
-https://user-images.githubusercontent.com/93427264/261806670-db848b6d-d98d-4f87-829b-d2ba877a3afc.png
-```
+![image](https://github.com/Syam-tej/EXP-1-Plot-a-time-series-data/assets/93427224/6ec20103-4a67-40b8-9eb6-c61b009db030)
 ## PLOTING BAR GRAPH(YEARLY):
 ![image](https://github.com/Syam-tej/EXP-1-Plot-a-time-series-data/assets/93427224/e34d281f-9228-443b-a413-dd7973a20966)
 
 ## RESULT:
-```
 Thus we have created the python code for plotting the time series of given data.
-```
